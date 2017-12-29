@@ -22,8 +22,9 @@ public class EmployeeController
     {
         try
         {
-            if(employeeDAO.getEmployeeById(employee.getId()) != null);
-            employeeDAO.updateEmployee(employee);
+            if(employeeDAO.getEmployeeById(employee.getId()) != null){
+                employeeDAO.updateEmployee(employee);
+            }
         }
         catch(EmptyResultDataAccessException e)
         {
