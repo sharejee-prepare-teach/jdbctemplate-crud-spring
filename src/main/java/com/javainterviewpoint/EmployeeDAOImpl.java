@@ -29,7 +29,7 @@ public class EmployeeDAOImpl implements EmployeeDAO
         String sql = "insert into Employee values(?,?,?,?)";
         System.out.println("dao called");
         jdbcTemplate.update(sql, new Object[]
-                {employee.getId(), employee.getName(), employee.getDept(), employee.getAge()});
+                {employee.getId(), employee.getName(), employee.getAge(),employee.getDept()});
     }
 
     // Getting a particular Employee
