@@ -1,7 +1,9 @@
-package com.javainterviewpoint;
+package com.javainterviewpoint.controllers;
 
 import java.util.List;
 
+import com.javainterviewpoint.models.Employee;
+import com.javainterviewpoint.repository.EmployeeDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Controller;

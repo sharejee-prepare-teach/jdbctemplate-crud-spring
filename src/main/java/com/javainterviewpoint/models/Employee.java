@@ -1,4 +1,4 @@
-package com.javainterviewpoint;
+package com.javainterviewpoint.models;
 
 import java.io.Serializable;
 

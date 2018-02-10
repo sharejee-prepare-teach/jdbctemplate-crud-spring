@@ -1,7 +1,7 @@
 package com.javainterviewpoint.restapi;
 
-import com.javainterviewpoint.Employee;
-import com.javainterviewpoint.EmployeeDAO;
+import com.javainterviewpoint.models.Employee;
+import com.javainterviewpoint.repository.EmployeeDAO;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

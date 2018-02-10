@@ -12,7 +12,7 @@
 	<context:component-scan base-package="com.javainterviewpoint" />
 
 
-	<bean id="employeeDAOImpl" class="com.javainterviewpoint.EmployeeDAOImpl">
+	<bean id="employeeDAOImpl" class="com.javainterviewpoint.repository.EmployeeDAOImpl">
 		<property name="jdbcTemplate" ref="jdbcTemplate" />
 	</bean>
 

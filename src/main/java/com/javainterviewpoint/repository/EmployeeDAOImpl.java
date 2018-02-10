@@ -1,10 +1,12 @@
-package com.javainterviewpoint;
+package com.javainterviewpoint.repository;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.javainterviewpoint.models.Employee;
+import com.javainterviewpoint.repository.EmployeeDAO;
 import org.springframework.dao.DataAccessException;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.ResultSetExtractor;
