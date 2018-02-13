@@ -39,7 +39,6 @@ public class EmployeeDAOImpl implements EmployeeDAO
         Employee employee = (Employee) jdbcTemplate.queryForObject(sql, new Object[]
         { id }, new RowMapper<Employee>()
         {
-            @Override
             public Employee mapRow(ResultSet rs, int rowNum) throws SQLException 
             {
                 Employee employee = new Employee();
@@ -60,7 +59,6 @@ public class EmployeeDAOImpl implements EmployeeDAO
 
         List<Employee> employeeList = jdbcTemplate.query(sql, new ResultSetExtractor<List<Employee>>()
         {
-            @Override
             public List<Employee> extractData(ResultSet rs) throws SQLException, DataAccessException
             {
                 List<Employee> list = new ArrayList<Employee>();
